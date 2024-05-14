@@ -36,6 +36,13 @@ export const Projects = () => {
       ada: true,
     },
     {
+      title: "Fashboat Booking",
+      description: "Ready Development",
+      imgUrl: projImg4,
+      goTo:"https://www.wijayabuyuk.com/",
+      ada: true,
+    },
+    {
       title: "Sosmed",
       description: "Ready Development",
       imgUrl: projImg2,
@@ -46,13 +53,6 @@ export const Projects = () => {
       title: "Lidia Book",
       description: "Design & Development",
       imgUrl: projImg3,
-      goTo:"#",
-      ada: false,
-    },
-    {
-      title: "Fashboat Booking",
-      description: "Ready Development",
-      imgUrl: projImg4,
       goTo:"#",
       ada: false,
     },

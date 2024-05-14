@@ -13,6 +13,7 @@ import projImg10 from "../assets/img/juallagi-app.png";
 import projImg11 from "../assets/img/block-game.png";
 import projImg12 from "../assets/img/memorycard-game.png";
 import projImg13 from "../assets/img/fingerninja-game.png";
+import projImg14 from "../assets/img/furniro-app.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -25,6 +26,13 @@ export const Projects = () => {
       description: "Ready Development",
       imgUrl: projImg1,
       goTo:"https://rent-car-ten-delta.vercel.app/",
+      ada: true,
+    },
+    {
+      title: "Furniro",
+      description: "Ready Development",
+      imgUrl: projImg14,
+      goTo:"https://furniro-eight.vercel.app/",
       ada: true,
     },
     {

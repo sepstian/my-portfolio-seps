@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sepstian's`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Front End Developer", "Back End Developer", "FullStack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Here, you can explore some of my works in Web Development, Web Design, Front End Development, Back End Development, and Full Stack Development. Every project here is a result of my hard work, creativity, and perseverance, or that of my team.<br></br>Feel free to browse through my portfolio! If anything catches your eye or if you want to chat further, don’t hesitate to get in touch. I’m always up for new projects and cool ideas.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

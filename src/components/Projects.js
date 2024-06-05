@@ -15,6 +15,8 @@ import projImg12 from "../assets/img/memorycard-game.png";
 import projImg13 from "../assets/img/fingerninja-game.png";
 import projImg14 from "../assets/img/furniro-app.png";
 import projImg15 from "../assets/img/cryptoList-app.png";
+import projImg16 from "../assets/img/bree-chat-app.png";
+import projImg17 from "../assets/img/ecommerce-tokped-app.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -49,6 +51,20 @@ export const Projects = () => {
       imgUrl: projImg15,
       goTo:"https://crypto-list-mocha.vercel.app/",
       ada: true,
+    },
+    {
+      title: "Bree Chat",
+      description: "Ready Development",
+      imgUrl: projImg16,
+      goTo:"https://chat-app-react-teal.vercel.app/",
+      ada: true,
+    },
+    {
+      title: "Ecommerce Tokped",
+      description: "Ready Development",
+      imgUrl: projImg17,
+      goTo:"#",
+      ada: false,
     },
     {
       title: "Sosmed",
@@ -107,6 +123,7 @@ export const Projects = () => {
       ada: false,
     },
   ];
+
   const projectsGame = [
     {
       title: "Block Game",

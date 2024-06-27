@@ -9,7 +9,7 @@ import projImg6 from "../assets/img/project-img3.png";
 import projImg7 from "../assets/img/project-img1.png";
 import projImg8 from "../assets/img/ticket-app.png";
 import projImg9 from "../assets/img/todo-list-app.png";
-import projImg10 from "../assets/img/juallagi-app.png";
+import projImg10 from "../assets/img/juallagi-app-new.png";
 import projImg11 from "../assets/img/block-game.png";
 import projImg12 from "../assets/img/memorycard-game.png";
 import projImg13 from "../assets/img/fingerninja-game.png";
@@ -60,6 +60,13 @@ export const Projects = () => {
       ada: true,
     },
     {
+      title: "JualLagi.Biz",
+      description: "Ready Development",
+      imgUrl: projImg10,
+      goTo:"https://juallagi.biz/",
+      ada: true,
+    },
+    {
       title: "Ecommerce Tokped",
       description: "Ready Development",
       imgUrl: projImg17,
@@ -81,27 +88,6 @@ export const Projects = () => {
       ada: false,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg5,
-      goTo:"#",
-      ada: false,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg6,
-      goTo:"#",
-      ada: false,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg7,
-      goTo:"#",
-      ada: false,
-    },
-    {
       title: "Ticket",
       description: "Design & Development",
       imgUrl: projImg8,
@@ -112,13 +98,6 @@ export const Projects = () => {
       title: "Todo List Activity",
       description: "Ready Development",
       imgUrl: projImg9,
-      goTo:"#",
-      ada: false,
-    },
-    {
-      title: "E-Commerce",
-      description: "Ready Development",
-      imgUrl: projImg10,
       goTo:"#",
       ada: false,
     },
